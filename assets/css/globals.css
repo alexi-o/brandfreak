@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* PrimeVue button custom styles */
+.p-button {
+    background-color: #9b5de5 !important;
+    border: none !important;
+    color: #fff !important;
+    box-shadow: 0 0 10px #9b5de5, 0 0 20px #9b5de5 !important;
+}
+
+.p-button:hover {
+    background-color: #c45def !important;
+    box-shadow: 0 0 12px #c45def, 0 0 24px #c45def !important;
+}

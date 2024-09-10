@@ -4,12 +4,18 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: [
     "@/assets/css/globals.css",
-    "primevue/resources/themes/saga-blue/theme.css",
+    "primevue/resources/themes/vela-blue/theme.css", // Use the dark theme
     "primevue/resources/primevue.css",
     "primeicons/primeicons.css",
     "primeflex/primeflex.css",
   ],
   build: {
     transpile: ["primevue"],
+  },
+  runtimeConfig: {
+    public: {
+      supabaseUrl: process.env.SUPABASE_URL,
+      supabaseKey: process.env.SUPABASE_KEY,
+    },
   },
 });
