@@ -26,9 +26,6 @@ export default {
       this.$router.push("/auth");
     },
   },
-  meta: {
-    layout: "default", // Explicitly use the default layout
-  },
 };
 </script>
 

@@ -3,11 +3,9 @@
     <div class="container mx-auto p-6">
       <header class="flex items-center justify-between mb-8">
         <h1 class="text-3xl font-bold">Dashboard</h1>
-        <Button label="Logout" class="p-button-danger" @click="logout" />
       </header>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <!-- Example dashboard cards -->
         <div
           class="bg-gray-800 border border-neonPurple p-6 rounded-lg shadow-lg"
         >
