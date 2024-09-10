@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: [
     "@/assets/css/globals.css",
-    "primevue/resources/themes/vela-blue/theme.css", // Use the dark theme
+    "primevue/resources/themes/vela-blue/theme.css",
     "primevue/resources/primevue.css",
     "primeicons/primeicons.css",
     "primeflex/primeflex.css",

@@ -22,7 +22,7 @@
             <Password
               v-model="password"
               placeholder="Password"
-              feedback="false"
+              :feedback="false"
               class="w-full p-inputtext-lg"
               style="color: #9b5de5; background-color: #1a1a1a; border: none"
             />

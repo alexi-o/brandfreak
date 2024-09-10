@@ -18,13 +18,17 @@
   </section>
 </template>
 
-<script setup>
-import { useRouter } from "vue-router";
-
-const router = useRouter();
-
-const goToAuth = () => {
-  router.push("/auth");
+<script>
+export default {
+  name: "LandingPage",
+  methods: {
+    goToAuth() {
+      this.$router.push("/auth");
+    },
+  },
+  meta: {
+    layout: "default", // Explicitly use the default layout
+  },
 };
 </script>
 
